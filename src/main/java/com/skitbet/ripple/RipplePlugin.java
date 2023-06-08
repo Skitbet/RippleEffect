@@ -13,6 +13,10 @@ import org.bukkit.util.Vector;
 
 public class RipplePlugin extends JavaPlugin {
 
+    /**
+     * Technically the ripple effect will only work on flat surfaces.
+     */
+
     @Override
     public void onEnable() {
     }
@@ -20,7 +24,7 @@ public class RipplePlugin extends JavaPlugin {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 
-        if (label.equals("test")) {
+        if (label.equals("ripple")) {
             Player player = (Player) sender;
 
             Location location = player.getLocation().clone();

@@ -1,0 +1,6 @@
+name: Ripple
+version: 1.0
+main: com.skitbet.riplle.RipplePlugin
+commands:
+  ripple:
+    description: Ripple!

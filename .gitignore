@@ -23,3 +23,4 @@ buildNumber.properties
 .idea/modules.xml
 .idea/uiDesigner.xml
 RippleEffect.iml
+.idea/vcs.xml
